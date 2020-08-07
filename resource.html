@@ -18,15 +18,36 @@
                 background-image:linear-gradient(120deg,#29293d,#52527a,#8585ad);
              }
              .f2{
-                 padding:20px;
+                 padding:10px;
              }
              .f1{
                  padding:10px;
+                 float: left;
              }
-             #backend-section{
+             #backend-section {
                  margin:45px 0;
+             }             
+             .card {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                transition: transform 0.8s;
+                transform-style: preserve-3d;
              }
-             .footer{
+             .f1:hover .card{
+                transform: rotateY(180deg);
+            }  
+            .flip-card-back {
+                background-color: dodgerblue;
+                color: white;
+                transform: rotateY(180deg);
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                backface-visibility: hidden;
+            }              
+            .footer{
                 height:70px;
                 margin-top:20px;
                 padding:5px;
@@ -84,7 +105,13 @@
                                     <div class="card-footer">
                                         <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers?ranMID=40328&ranEAID=Vq5kdUDL6n8&ranSiteID=Vq5kdUDL6n8-0flOgKq4KST7sH2_SWC8HA&siteID=Vq5kdUDL6n8-0flOgKq4KST7sH2_SWC8HA&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=Vq5kdUDL6n8" class="btn btn-outline-primary btn-block">Click here</a>
                                     </div>
+                                <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                 </div>
+
                             </div>
                             <div class="col-md-3 f1">
                                 <div class="card">
@@ -95,8 +122,13 @@
                                     <div class="card-footer">
                                         <a href="https://www.udemy.com/share/101WbyBkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
                                     </div>
+                                    <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                 </div>
-                            </div>
+                                </div>
                             <div class="col-md-3 f1">
                                 <div class="card">
                                     <img src="https://vuejsadmin.com/wp-content/uploads/2018/09/Best-Vue-JS-Tutorial-online.jpg" class="card-img-top" height="140vh">
@@ -106,8 +138,13 @@
                                     <div class="card-footer">
                                         <a href="https://www.udemy.com/share/101WzMBkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
                                     </div>
+                                    <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                 </div>
-                            </div>
+                                </div>
                             <div class="col-md-3 f1">
                                 <div class="card">
                                     <img src="https://i0.wp.com/blogit.create.pt/wp-content/uploads/2018/08/angular.jpg?fit=750%2C422&ssl=1" class="card-img-top" height="140vh">
@@ -117,10 +154,15 @@
                                     <div class="card-footer">
                                         <a href="https://www.udemy.com/share/101WpOBkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
                                     </div>
+                                    <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                     <!-- First Carousel End -->
                     <!-- Second Carousel Start-->
@@ -137,6 +179,11 @@
                                         <div class="card-footer">
                                             <a href="https://www.udemy.com/share/101WfeBkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
                                         </div>
+                                        <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                     </div>
                                 </div>
                 
@@ -149,6 +196,11 @@
                                         <div class="card-footer">
                                             <a href="https://www.udemy.com/share/101WZyBkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
                                         </div>
+                                        <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 f1">
@@ -160,6 +212,11 @@
                                         <div class="card-footer">
                                             <a href="https://www.udemy.com/share/101GfsBkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
                                         </div>
+                                        <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 f1">
@@ -171,6 +228,11 @@
                                         <div class="card-footer">
                                             <a href="https://www.udemy.com/share/101Yg2BkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
                                         </div>
+                                        <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
@@ -209,6 +271,11 @@
                                     <div class="card-footer">
                                         <a href="https://www.udemy.com/share/101WGiBkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
                                     </div>
+                                    <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-3 f1">
@@ -219,6 +286,11 @@
                                     </div>
                                     <div class="card-footer">
                                         <a href="https://www.udemy.com/share/102n7GBkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
                                     </div>
                                 </div>
                             </div>
@@ -231,6 +303,11 @@
                                     <div class="card-footer">
                                         <a href="https://www.udemy.com/share/101WwwBkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
                                     </div>
+                                    <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-3 f1">
@@ -241,6 +318,11 @@
                                     </div>
                                     <div class="card-footer">
                                         <a href="https://www.udemy.com/share/1013z6BkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
                                     </div>
                                 </div>
                             </div>
@@ -262,6 +344,11 @@
                                         <div class="card-footer">
                                             <a href="https://www.udemy.com/share/101uQwBkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
                                         </div>
+                                        <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                     </div>
                                 </div>
                 
@@ -274,6 +361,11 @@
                                         <div class="card-footer">
                                             <a href="https://www.udemy.com/share/101WakBkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
                                         </div>
+                                        <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 f1">
@@ -285,6 +377,11 @@
                                         <div class="card-footer">
                                             <a href="https://www.udacity.com/course/java-developer-nanodegree--nd035" class="btn btn-outline-primary btn-block">Click here</a>
                                         </div>
+                                        <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 f1">
@@ -296,6 +393,11 @@
                                         <div class="card-footer">
                                             <a href="https://www.udemy.com/share/101WCuBkIbdFtVQ3w=/" class="btn btn-outline-primary btn-block">Click here</a>
                                         </div>
+                                        <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
@@ -332,6 +434,11 @@
                                 <div class="card-footer">
                                     <a href="https://www.coursera.org/specializations/learn-sql-basics-data-science" class="btn btn-outline-primary btn-block">Click here</a>
                                 </div>
+                                <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                             </div>
                         </div>
                          <div class="col-md-3 f1">           
@@ -344,6 +451,11 @@
                                     <div class="card-footer">
                                         <a href="https://www.udemy.com/course/mongodb-the-complete-developers-guide/" class="btn btn-outline-primary btn-block">Click here</a>
                                     </div>
+                                    <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                 </div>
                             </div>
                         <div class="col-md-3 f1">
@@ -355,6 +467,11 @@
                                 <div class="card-footer">
                                     <a href="https://www.coursera.org/specializations/aws-fundamentals" class="btn btn-outline-primary btn-block">Click here</a>
                                 </div>
+                                <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                             </div>
                         </div>
                         <div class="col-md-3 f1">
@@ -366,6 +483,11 @@
                                 <div class="card-footer">
                                     <a href="https://www.coursera.org/specializations/database-systems" class="btn btn-outline-primary btn-block">Click here</a>
                                 </div>
+                                <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -385,6 +507,11 @@
                                 <div class="card-footer">
                                     <a href="https://www.udemy.com/course/the-complete-walkthrough-of-microsoft-azure-services/" class="btn btn-outline-primary btn-block">Click here</a>
                                 </div>
+                                <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                </div>
                             </div>
                         </div>
                             <div class="col-md-3 f1">
@@ -395,6 +522,11 @@
                                     </div>
                                     <div class="card-footer">
                                         <a href="https://www.udemy.com/course/apache-kafka/" class="btn btn-outline-primary btn-block">Click here</a>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
                                     </div>
                                 </div>
                             </div>
@@ -407,6 +539,11 @@
                                     <div class="card-footer">
                                         <a href="https://www.udemy.com/course/complete-elasticsearch-masterclass-with-kibana-and-logstash/" class="btn btn-outline-primary btn-block">Click here</a>
                                     </div>
+                                    <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-3 f1">
@@ -417,6 +554,11 @@
                                     </div>
                                     <div class="card-footer">
                                         <a href="https://www.udemy.com/course/relational-database-design/" class="btn btn-outline-primary btn-block">Click here</a>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
                                     </div>
                                 </div>
                             </div>
@@ -434,9 +576,7 @@
         </div>
         </section>
         <!-- Database Section End -->
-
     </section>
-
     <!--Version Control Section Start-->
     <section id="vcontrol-section">
         <h2 class="text-center">Version Control</h2>
@@ -457,6 +597,11 @@
                             <div class="card-footer">
                                 <a href="https://www.coursera.org/learn/version-control-with-git" class="btn btn-outline-primary btn-block">Click here</a>
                             </div>
+                            <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3 f1">
@@ -467,6 +612,11 @@
                             </div>
                             <div class="card-footer">
                                 <a href="https://www.coursera.org/projects/git-and-github" class="btn btn-outline-primary btn-block">Click here</a>
+                            </div>
+                            <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
                             </div>
                         </div>
                     </div>
@@ -479,6 +629,11 @@
                             <div class="card-footer">
                                 <a href="https://www.udemy.com/course/gitlab-for-beginners/" class="btn btn-outline-primary btn-block">Click here</a>
                             </div>
+                            <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3 f1">
@@ -489,6 +644,11 @@
                                 </div>
                                 <div class="card-footer">
                                     <a href="https://cloudacademy.com/course/atlassian-bitbucket/introduction-bitbucket/" class="btn btn-outline-primary btn-block">Click here</a>
+                                </div>
+                                <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
                                 </div>
                             </div>
                         </div>
@@ -510,6 +670,11 @@
                                 <div class="card-footer">
                                     <a href="https://www.dataquest.io/course/git-and-vcs/" class="btn btn-outline-primary btn-block">Click here</a>
                                 </div>
+                                <div class="flip-card-back">
+                                    <h1>John Doe</h1>
+                                    <p>Architect & Engineer</p>
+                                    <p>We love that guy</p>
+                            </div>
                             </div>
                         </div>
         
@@ -522,6 +687,11 @@
                                 <div class="card-footer">
                                     <a href="https://www.udemy.com/course/version-control-with-tfvc-and-git-2-in-1/" class="btn btn-outline-primary btn-block">Click here</a>
                                 </div>
+                                <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 f1">
@@ -533,6 +703,11 @@
                                 <div class="card-footer">
                                     <a href="https://www.udemy.com/course/mercurial-mastering-version-control-systems-with-mercurial/" class="btn btn-outline-primary btn-block">Click here</a>
                                 </div>
+                                <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                            <p>Architect & Engineer</p>
+                                            <p>We love that guy</p>
+                                </div>
                             </div>
                         </div>                        
                     <div class="col-md-3 f1">
@@ -543,6 +718,11 @@
                             </div>
                             <div class="card-footer">
                                 <a href="https://www.udemy.com/course/version-control-for-designers/" class="btn btn-outline-primary btn-block">Click here</a>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1>John Doe</h1>
+                                <p>Architect & Engineer</p>
+                                <p>We love that guy</p>
                             </div>
                         </div>
                     </div>
